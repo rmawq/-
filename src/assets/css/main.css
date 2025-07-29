@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Microsoft YaHei', 'Avenir', Helvetica, Arial, sans-serif;
+  background-color: #f5f6f7;
+  position: relative;
+}
+
+#app {
+  min-height: 100%;
+  position: relative;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.page-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.orange-btn {
+  background-color: #FFA80A !important;
+  border-color: #FFA80A !important;
+  color: #fff !important;
+}
+
+.orange-btn:hover, .orange-btn:focus {
+  background-color: #ff9600 !important;
+  border-color: #ff9600 !important;
+} 
